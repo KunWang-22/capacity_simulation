@@ -38,7 +38,7 @@ class HVAC_env(object):
         self.time = 0
         # day_num = np.random.randint(0,30)
         # get temperature data
-        data_file = '../dataset/weather/weather_2021/weather-'+str(month)+'.xlsx'
+        data_file = './weather_2021/weather-'+str(month)+'.xlsx'
         day_num = num
         print(month, num)
         today_weekday = datetime.datetime(2021, month, num+1).weekday()

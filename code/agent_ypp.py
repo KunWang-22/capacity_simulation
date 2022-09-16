@@ -32,8 +32,8 @@ parser.add_argument('--batch_size', default=64, type=int) # mini batch size
 # optional parameters
 #parser.add_argument('--render', default=True, type=bool) # show UI or not
 parser.add_argument('--save_interval', default=50, type=int) # how much episodes to save the agent
-parser.add_argument('--exploration_noise', default=0.32, type=float)  
-parser.add_argument('--max_episode', default=8000, type=int) # num of games
+parser.add_argument('--exploration_noise', default=0.32, type=float)
+parser.add_argument('--max_episode', default=1000, type=int) # num of games
 parser.add_argument('--update_iteration', default=20, type=int)
 #是否需要确定随机种子，保证能复现
 parser.add_argument('--seed', default=True, type=bool)
